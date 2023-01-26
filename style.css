@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+header > a{
+    margin-left: 30px;
+}
+img{
+    width: 400px;
+}
+#images{
+    width: 300px;
+    margin: 85px 0;
+}
+h2{
+    color: red;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#advanced_form{
+    display: flex;
+    align-items: flex-start;
+}
+a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+#text{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+i{
+    position: absolute;
+    margin: 15px 470px;
+    background-color: white;
+}
+#advance{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.label{
+    display: flex;
+}
+.input{
+    display: flex;
+}
+#submit{
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+    border: hidden;
+    border-radius: 5px;
+}
