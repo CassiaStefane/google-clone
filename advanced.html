@@ -13,24 +13,29 @@
         <h2>Advanced Search</h2>
         <h3>Find pages with… </h3>
         <form id="advanced_form" action="https://www.google.com/advanced_search">
-            <div id="advance">
-                <div>
-                    <label class="label" for="all">all these words:</label>
-                    <label class="label" for="exact">this exact word or phrase:</label>
-                    <label class="label" for="any">any of these words:</label>
-                    <label class="label" for="none">none of these words:</label>
-
-                </div>
-                <div>
-                    <input class="input" type="text" name="q" id="all">
-                    <input class="input" type="text" name="q" id="exact">
-                    <input class="input" type="text" name="q" id="any">
-                    <input class="input" type="text" name="q" id="none">
-
+            <div>
+                <div id="advance">
+                    <div class="row">
+                        <label class="label" for="all">all these words:</label>
+                        <input class="input" type="text" name="as_q" id="all">
+                    </div>
+                    <div class="row">
+                        <label class="label" for="exact">this exact word or phrase:</label>
+                        <input class="input" type="text" name="as_epq" id="exact">
+                    </div>
+                    <div class="row">
+                        <label class="label" for="any">any of these words:</label>
+                        <input class="input" type="text" name="as_oq" id="any">
+                    </div>
+                    <div class="row"> 
+                        <label class="label" for="none">none of these words:</label>
+                        <input class="input" type="text" name="as_eq" id="none">  
+                    </div>
                 </div>
                 </div>
             </div>
-            <input id="submit" type="submit" value="Google Search">
+            <input type="hidden" name="tbs">
+            <input class="submit-advanced" type="submit" value="Advanced Search">
         </form>
     </body>
 </html>
